@@ -9,7 +9,7 @@ const getRating = () =>{
     buttons.forEach(button =>{
         button.addEventListener('click', () =>{
             buttons.forEach(btn => btn.classList.remove("active"))
-            rating = button.getAttribute('value')
+            rating = button.getAttribute('numRating')
             button.classList.add('active')
         })
     }) 
