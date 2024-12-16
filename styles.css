@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1;
+    color: white;
+    font-family: "Overpass", sans-serif;
+}
+
+.main-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(228, 11%, 9%);
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color:hsl(215, 21%, 16%);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    visibility: visible;
+}
+
+.thanks-card{
+    position: relative;
+    visibility: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: hsl(215, 21%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 25px;
+}
+
+.tc-placeholder{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tc-placeholder img{
+    width: 100%;
+    height: auto;
+}
+
+.thanks-card h1{
+    font-weight: 600;
+}
+
+.thanks-card p{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.selection{
+    background-color: hsl(210, 19%, 18%); 
+    padding: 7px 5px 5px 5px;
+    border-radius: 20px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+    color: hsl(25, 97%, 53%);
+}
+
+.img-placeholder{
+    width: 35px;
+    height: 35px;
+    background-color: hsl(213, 23%, 19%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img-placeholder img{
+    transform: scale(1.2);
+    width: 30%;
+    height: 30%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p{
+    font-size: 0.7rem;
+    line-height: 1.7;
+    color: hsl(217, 12%, 63%);
+}
+
+.buttons div{
+    width: 35px;
+    height: 35px;
+    background-color: hsl(210, 19%, 18%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.buttons div:hover{
+    background-color: white;
+    color: hsl(210, 19%, 18%);
+}
+
+.rating.active{
+    background-color: hsl(25, 99%, 54%);
+    color:hsl(215, 21%, 16%) ;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form button{
+    width: 100%;
+    color: hsl(215, 23%, 15%);
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: white;
+}
